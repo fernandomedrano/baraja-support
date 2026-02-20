@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product Roadmap
+    url: https://github.com/fernandomedrano/baraja-support/blob/main/ROADMAP.md
+    about: See what's planned for v2.0 (Designer) and v3.0 (Notebook)
+  - name: Download App
+    url: https://apps.apple.com
+    about: Download Baraja Generator from the Mac App Store

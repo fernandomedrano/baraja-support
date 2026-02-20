@@ -1,0 +1,138 @@
+# Issue labels for Baraja Generator
+# Sync with: gh label sync -f .github/labels.yml
+
+# Type labels
+- name: "bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "enhancement"
+  color: "a2eeef"
+  description: "New feature or request"
+
+- name: "question"
+  color: "d876e3"
+  description: "Help or usage question"
+
+- name: "documentation"
+  color: "0075ca"
+  description: "Improvements or additions to documentation"
+
+# Priority labels
+- name: "priority: critical"
+  color: "b60205"
+  description: "App-breaking issue, needs immediate attention"
+
+- name: "priority: high"
+  color: "d93f0b"
+  description: "Important issue affecting many users"
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: "Normal priority"
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: "Nice to have, not urgent"
+
+# Status labels
+- name: "needs-triage"
+  color: "ededed"
+  description: "Needs initial review and categorization"
+
+- name: "needs-reproduction"
+  color: "fef2c0"
+  description: "Need more details or steps to reproduce"
+
+- name: "confirmed"
+  color: "0e8a16"
+  description: "Bug has been confirmed"
+
+- name: "in-progress"
+  color: "1d76db"
+  description: "Currently being worked on"
+
+- name: "blocked"
+  color: "e99695"
+  description: "Blocked by another issue or external dependency"
+
+# Product labels
+- name: "generator"
+  color: "5319e7"
+  description: "Baraja Generator (v1.x)"
+
+- name: "designer"
+  color: "b60205"
+  description: "Baraja Designer (v2.x - future)"
+
+- name: "notebook"
+  color: "0052cc"
+  description: "Baraja Notebook (v3.x - future)"
+
+# Component labels
+- name: "api-keys"
+  color: "fbca04"
+  description: "API key configuration or validation"
+
+- name: "generation"
+  color: "c5def5"
+  description: "Deck generation process"
+
+- name: "audio"
+  color: "f9d0c4"
+  description: "TTS audio or voice issues"
+
+- name: "anki"
+  color: "0e8a16"
+  description: "Anki export or import issues"
+
+- name: "ui"
+  color: "d4c5f9"
+  description: "User interface issues"
+
+- name: "performance"
+  color: "006b75"
+  description: "Speed or resource usage"
+
+# Platform labels
+- name: "macos-13"
+  color: "e99695"
+  description: "macOS Ventura specific"
+
+- name: "macos-14"
+  color: "bfdadc"
+  description: "macOS Sonoma specific"
+
+- name: "macos-15"
+  color: "c2e0c6"
+  description: "macOS Sequoia specific"
+
+# Resolution labels
+- name: "duplicate"
+  color: "cfd3d7"
+  description: "This issue or pull request already exists"
+
+- name: "wontfix"
+  color: "ffffff"
+  description: "This will not be worked on"
+
+- name: "invalid"
+  color: "e4e669"
+  description: "This doesn't seem right or is not reproducible"
+
+- name: "by-design"
+  color: "fef2c0"
+  description: "Working as intended, not a bug"
+
+# Special labels
+- name: "good-first-issue"
+  color: "7057ff"
+  description: "Good for newcomers"
+
+- name: "help-wanted"
+  color: "008672"
+  description: "Extra attention is needed"
+
+- name: "breaking-change"
+  color: "d73a4a"
+  description: "Introduces breaking changes in next version"

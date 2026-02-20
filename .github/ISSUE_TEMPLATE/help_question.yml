@@ -1,0 +1,61 @@
+name: Help / Question
+description: Get help using Baraja Generator
+title: "[Help] "
+labels: ["question", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help? We're here to assist! Please provide details so we can help you quickly.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Describe your question or issue
+      placeholder: "I'm trying to..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What is this question about?
+      options:
+        - Setting up API keys
+        - Generating decks
+        - Importing to Anki
+        - Batch generation (CSV)
+        - Voice or audio issues
+        - Output folder or file issues
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Have you attempted any solutions?
+      placeholder: "I tried..."
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I have searched existing issues for similar questions
+          required: true
+        - label: I have read the in-app help (if available)
+          required: false

@@ -1,0 +1,59 @@
+name: Feature Request
+description: Suggest a new feature for Baraja Generator
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! We're working on v2.0 (Baraja Designer) and v3.0 (Baraja Notebook). Your suggestion might fit into one of those roadmaps.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this feature solve?
+      description: Describe the use case or pain point
+      placeholder: "I'm frustrated when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like this to work?
+      placeholder: "I would like..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you tried any workarounds or other approaches?
+      placeholder: "I've tried..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product should this feature be in?
+      description: See product roadmap at docs/product-roadmap.md
+      options:
+        - Baraja Generator (v1.x - simple deck generation)
+        - Baraja Designer (v2.x - pattern-based curriculum builder)
+        - Baraja Notebook (v3.x - personal pattern library)
+        - Not sure
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I have searched existing issues to see if this feature was already requested
+          required: true
+        - label: I have read the product roadmap (docs/product-roadmap.md)
+          required: false
